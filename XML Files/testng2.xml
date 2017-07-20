@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+                  <!-- Crew Admin -->
+         <class name="crew_Admin.Oil_LibraryTest"/>
+         <class name="crew_Admin.CrewDetailsConfigurationTest"/> 
+         <class name="crew_Admin.UnionAndUnionBookTest"/>
+         <class name="crew_Admin.SchoolTest"/>
+         <class name="crew_Admin.RaceAndVeteranStatusTest"/> 
+         
+                <!--  Operation Admin -->
+         <class name="operation_Admin.WaterInTankTest"/>
+         <class name="operation_Admin.PiracyAlarmSettingsTest"/>
+         <class name="operation_Admin.VslGeneralParametersTest"/>
+          <class name="operation_Admin.ReportsRankConfigTest"/>
+         
+              <!--  Quality Admin -->
+        <class name="quality_Admin.FormTypeLibraryTest"/>
+        <class name="quality_Admin.FBMReadAccessTest"/>
+         
+                <!-- Purchase Admin -->
+         <class name="purchase_Admin.LOTestingLabListTest"/>
+         <class name="purchase_Admin.LocationTest"/>
+         <class name="purchase_Admin.SetItemsMinMaxQtysTest"/>
+         <class name="purchase_Admin.PurchaseQuestionnaireTest"/>
+         <class name="purchase_Admin.UnitPackingsTest"/>
+         <class name="purchase_Admin.EmailTemplateTest"/>
+         <class name="purchase_Admin.PurchaseSettingsTest"/>
+         <class name="purchase_Admin.ApprovalSettingTest"/>
+          <class name="purchase_Admin.ProvisionsApprovalLimitTest"/>
+          
+          
+          
+                   <!-- Travel Admin -->
+                   
+          <class name="travel_Admin.TravelAdminTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

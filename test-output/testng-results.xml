@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="79443" started-at="2017-06-29T05:39:50Z" finished-at="2017-06-29T05:41:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="79443" started-at="2017-06-29T05:39:50Z" finished-at="2017-06-29T05:41:09Z">
+      <class name="purchase_Admin.LocationTest">
+        <test-method status="PASS" signature="initialioseBrowser()[pri:0, instance:purchase_Admin.LocationTest@7e5afaa6]" name="initialioseBrowser" is-config="true" duration-ms="14203" started-at="2017-06-29T11:09:36Z" finished-at="2017-06-29T11:09:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialioseBrowser -->
+        <test-method status="PASS" signature="beforeSu()[pri:0, instance:purchase_Admin.LocationTest@7e5afaa6]" name="beforeSu" is-config="true" duration-ms="78" started-at="2017-06-29T11:09:50Z" depends-on-methods="common_Function.WebDriverPass.initialioseBrowser" finished-at="2017-06-29T11:09:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSu -->
+        <test-method status="PASS" signature="Locations()[pri:5, instance:purchase_Admin.LocationTest@7e5afaa6]" name="Locations" duration-ms="5743" started-at="2017-06-29T11:09:50Z" finished-at="2017-06-29T11:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Locations -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:purchase_Admin.LocationTest@7e5afaa6]" name="afterMethod" is-config="true" duration-ms="180" started-at="2017-06-29T11:09:56Z" finished-at="2017-06-29T11:09:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Locations status=SUCCESS method=LocationTest.Locations()[pri:5, instance:purchase_Admin.LocationTest@7e5afaa6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="AddNewLocation()[pri:6, instance:purchase_Admin.LocationTest@7e5afaa6]" name="AddNewLocation" duration-ms="23817" started-at="2017-06-29T11:09:56Z" finished-at="2017-06-29T11:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNewLocation -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:purchase_Admin.LocationTest@7e5afaa6]" name="afterMethod" is-config="true" duration-ms="56" started-at="2017-06-29T11:10:20Z" finished-at="2017-06-29T11:10:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddNewLocation status=SUCCESS method=LocationTest.AddNewLocation()[pri:6, instance:purchase_Admin.LocationTest@7e5afaa6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="EditLocation()[pri:7, instance:purchase_Admin.LocationTest@7e5afaa6]" name="EditLocation" duration-ms="27232" started-at="2017-06-29T11:10:20Z" finished-at="2017-06-29T11:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditLocation -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:purchase_Admin.LocationTest@7e5afaa6]" name="afterMethod" is-config="true" duration-ms="55" started-at="2017-06-29T11:10:47Z" finished-at="2017-06-29T11:10:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EditLocation status=SUCCESS method=LocationTest.EditLocation()[pri:7, instance:purchase_Admin.LocationTest@7e5afaa6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="DeleteLocation()[pri:8, instance:purchase_Admin.LocationTest@7e5afaa6]" name="DeleteLocation" duration-ms="22284" started-at="2017-06-29T11:10:47Z" finished-at="2017-06-29T11:11:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteLocation -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:purchase_Admin.LocationTest@7e5afaa6]" name="afterMethod" is-config="true" duration-ms="57" started-at="2017-06-29T11:11:09Z" finished-at="2017-06-29T11:11:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteLocation status=SUCCESS method=LocationTest.DeleteLocation()[pri:8, instance:purchase_Admin.LocationTest@7e5afaa6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:purchase_Admin.LocationTest@7e5afaa6]" name="closeBrowser" is-config="true" duration-ms="1001" started-at="2017-06-29T11:11:09Z" finished-at="2017-06-29T11:11:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- purchase_Admin.LocationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      
+               <!--  Crew Admin -->
+        <class name="crew_Admin.RankCategoryTest"/>
+        <class name="crew_Admin.CrewRankTest"/>
+         <class name="crew_Admin.joiningTypeTest"/>    
+         <class name="crew_Admin.DocumentGroupsTest"/>
+         <class name="crew_Admin.DocumentTypeTest"/>
+         <class name="crew_Admin.CrewSignOffReasonTest"/>
+         <class name="crew_Admin.TrainingTypesTest"/>
+         <class name="crew_Admin.CrewWelfareAmountTest"/>
+         <class name="crew_Admin.OnBoardStaffLimitTest"/>
+         <class name="crew_Admin.CompanySeniorityRewardTest"/>
+         <class name="crew_Admin.ContractTypeTest"/>
+         <class name="crew_Admin.CrewRankScaleTest"/>
+         <class name="crew_Admin.HandOverQuestionTest"/>
+         <class name="crew_Admin.CrewContractPeriodTest"/>
+        <class name="crew_Admin.CashAdvanceLimitTest"/> 
+         <class name="crew_Admin.AllotmentflagmailsettingsTest"/>
+         <class name="crew_Admin.CrewJoiningSeniorityTest"/>
+         <class name="crew_Admin.CrewCardApproverTest"/>
+         <class name="crew_Admin.CrewStatusLibraryTest"/>
+         <class name="crew_Admin.CrewStatusMappingTest"/>
+         <class name="crew_Admin.CrewLeaveWagesWithholdRulesTest"/>
+         <class name="crew_Admin.OilMajorTest"/>
+         <class name="crew_Admin.OilMajorsRulesMappingTest"/>
+         <class name="crew_Admin.OilMajorsRuleGroupTest"/> 
+  
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

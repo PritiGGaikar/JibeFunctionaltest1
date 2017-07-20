@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+     <!--  <class name="technical_Admin.SurveyCertificateSettingsTest"/>
+      <class name="technical_Admin.WorklistAssignerListTest"/>
+      <class name="technical_Admin.WorklistAccessRightsTest"/>
+      <class name="technical_Admin.InspectionTypeTest"/>
+      <class name="technical_Admin.SuperAttendingVesselTest"/>
+      <class name="technical_Admin.InspVesselAssignmentTest"/> -->
+      <class name="technical_Admin.AlarmUnitLibraryTest"/>    
+      <class name="technical_Admin.AlarmEffectLibraryTest"/>      
+   <!--    <class name="technical_Admin.ERLogTHRESHOLDTest"/> -->
+   
+   
+    <!--   <class name="technical_Admin.FunctionLibraryTest"/>
+      <class name="technical_Admin.PMSAccessTest"/> -->
+      
+      
+      
+      
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

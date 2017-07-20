@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="purchase_Admin.Function_DepartmentTest">
+        <methods>
+          <include name="EditFunctionDepartment"/>
+          <include name="closeBrowser"/>
+          <include name="DeletetFunctionDepartment"/>
+          <include name="initialioseBrowser"/>
+          <include name="beforeSu"/>
+          <include name="AddFunctionDepartment"/>
+          <include name="FunctionDepartment"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- purchase_Admin.Function_DepartmentTest -->
+      <class name="purchase_Admin.PurchaseSettingsTest">
+        <methods>
+          <include name="PerchaseConfiSetting"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+          <include name="AutomaticRequisition"/>
+          <include name="closeBrowser"/>
+          <include name="CaptureRank"/>
+          <include name="PerchaseMandatory"/>
+          <include name="PurchaseSetting"/>
+          <include name="initialioseBrowser"/>
+        </methods>
+      </class> <!-- purchase_Admin.PurchaseSettingsTest -->
+      <class name="purchase_Admin.LocationTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="EditLocation"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+          <include name="DeleteLocation"/>
+          <include name="Locations"/>
+          <include name="initialioseBrowser"/>
+          <include name="AddNewLocation"/>
+        </methods>
+      </class> <!-- purchase_Admin.LocationTest -->
+      <class name="purchase_Admin.UnitPackingsTest">
+        <methods>
+          <include name="AddUnitPacking"/>
+          <include name="closeBrowser"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+          <include name="DeletetUnitPacking"/>
+          <include name="initialioseBrowser"/>
+          <include name="UnitPacking"/>
+          <include name="EditUnitPacking"/>
+        </methods>
+      </class> <!-- purchase_Admin.UnitPackingsTest -->
+      <class name="purchase_Admin.ItemCategoryTest">
+        <methods>
+          <include name="DeleteCategory"/>
+          <include name="ItemCategory"/>
+          <include name="EditNewCategory"/>
+          <include name="closeBrowser"/>
+          <include name="AddNewCategory"/>
+          <include name="initialioseBrowser"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- purchase_Admin.ItemCategoryTest -->
+      <class name="purchase_Admin.SetItemsMinMaxQtysTest">
+        <methods>
+          <include name="CatalogueItem"/>
+          <include name="closeBrowser"/>
+          <include name="MinMaxQuantity"/>
+          <include name="initialioseBrowser"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- purchase_Admin.SetItemsMinMaxQtysTest -->
+      <class name="purchase_Admin.EmailTemplateTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+          <include name="initialioseBrowser"/>
+          <include name="AddEmailTemplate"/>
+          <include name="EmailTemplat"/>
+        </methods>
+      </class> <!-- purchase_Admin.EmailTemplateTest -->
+      <class name="purchase_Admin.LOTestingLabListTest">
+        <methods>
+          <include name="DeleteLab"/>
+          <include name="AddNewLab"/>
+          <include name="closeBrowser"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+          <include name="initialioseBrowser"/>
+          <include name="EditLab"/>
+        </methods>
+      </class> <!-- purchase_Admin.LOTestingLabListTest -->
+      <class name="purchase_Admin.PurchaseQuestionnaireTest">
+        <methods>
+          <include name="AddNewQuestion"/>
+          <include name="closeBrowser"/>
+          <include name="PurchaseQuestionnaire"/>
+          <include name="initialioseBrowser"/>
+          <include name="beforeSu"/>
+          <include name="afterMethod"/>
+          <include name="AddNewGrade"/>
+          <include name="DeleteAddedNewGrade"/>
+          <include name="DeleteNewQuestion"/>
+        </methods>
+      </class> <!-- purchase_Admin.PurchaseQuestionnaireTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
